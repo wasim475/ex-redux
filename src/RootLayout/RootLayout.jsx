@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router';
 import Counter from '../components/counter/Counter';
+import Posts from '../components/Posts/Posts';
 
 
 const RootLayout = () => {
@@ -7,6 +8,7 @@ const RootLayout = () => {
     <div>
         <Outlet/>
       <Counter/>
+      <Posts/>
     </div>
   );
 };
